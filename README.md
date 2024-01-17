@@ -1,3 +1,3 @@
 # BinarySearchTreeVisualizer
 
-Welcome to the repo! More changes coming soon!
+Welcome to the repo! This web development project is a binary search tree visualizer implemented with Javascript and SVGs. In particular, it allows users to visualize inserting and deleting from a binary search tree, as well as the common tree traversal algorithms (in-order, pre-order, and post-order). In future updates, support for balanced/AVL trees and binary heaps is planned to be added.
