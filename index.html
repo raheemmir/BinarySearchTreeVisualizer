@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Tree Visualizer</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Binary Search Tree Visualizer</h1>
+    </header>
+
+    <section id="User-Input">
+        <div class="input-row">
+        
+            <!-- Input for inserting a node -->
+            <div class="input-group">
+                <input type="number" id="insert-node" placeholder="Insert a node here!">
+                <button id="insert-btn">Insert</button>
+            </div>
+        
+            <!-- Input for deleting a node -->
+             <div class="input-group">
+                <input type="number" id="delete-node" placeholder="Delete a node here!">
+                <button id="delete-btn">Delete</button>
+            </div>
+        
+            <!-- Tree Traversal "play" buttons -->
+            <button id="in-order-btn">In-Order Traversal</button>
+            <button id="pre-order-btn">Pre-Order Traversal</button>
+            <button id="post-order-btn">Post-Order Traversal</button>
+        
+            <!-- Clear/Reset Tree -->
+            <button id="reset-btn">Clear Tree</button>
+       
+        </div>
+    </section>
+    
+    <!-- Visuals are in this container -->
+    <section id="tree-visualization">
+        <svg id="tree-svg"></svg>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

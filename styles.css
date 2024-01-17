@@ -1,0 +1,38 @@
+.input-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    display: flex;
+    margin-right: 0px;
+}
+
+button {
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+circle {
+    stroke: #000;
+    fill: #fff;
+}
+
+line {
+    stroke: #000;
+}
+
+text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+#tree-svg {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 850px;
+    height: 500px; 
+}
